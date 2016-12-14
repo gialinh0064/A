@@ -1,0 +1,395 @@
+
+USE master
+GO
+
+CREATE DATABASE A
+GO
+
+DROP DATABASE A
+GO
+
+USE A
+GO
+----CREATE TABLE NHA CUNG CAP----
+
+CREATE TABLE [dbo].[NCC]
+(
+	[MaNCC] [nvarchar](10) NOT NULL, 
+	[TenNCC] [nvarchar](50)  NULL,
+	[DiaChi] [nvarchar](50) NULL,
+	[SDT] [nvarchar](10) NULL,
+	[Fax] [nvarchar](50)  NULL,
+    CONSTRAINT [PK_NCC] PRIMARY KEY CLUSTERED 
+(
+	[MaNCC] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+INSERT INTO NCC([MaNCC],[TenNCC],[DiaChi],[SDT],[Fax])
+    VALUES ('NCC1',N'Bia B?n thành',N'34 HCM',10000,2)
+--------------CREATE TABLE CHUCVU------------
+
+CREATE TABLE [dbo].[ChucVu](
+	[MaCV] [nvarchar] (10) NOT NULL,
+	[TenCV] [nvarchar](50) NULL,
+	
+	
+ CONSTRAINT [PK_ChucVu] PRIMARY KEY CLUSTERED 
+(
+	[MaCV]
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+INSERT INTO ChucVu([MaCV],[TenCV])
+    VALUES ('CV01',N'Quan ly')
+INSERT INTO ChucVu([MaCV],[TenCV])
+    VALUES ('CV02',N'Nhan vien ban hang')
+----------------Create table Nhanvien---------------
+
+
+CREATE TABLE [dbo].[Nhanvien](
+	[MaNV] [nvarchar] (10) NOT NULL,
+	[HoNV] [nvarchar](50) NULL,
+	[Ten] [nvarchar](50) NULL,
+	[MatKhau] [nvarchar](10) NULL,
+	[Diachi] [nvarchar](50) NULL,
+	[Dienthoai] [nvarchar](50) NULL,
+	[MaCV] [nvarchar](10) NOT NULL,
+	[CaTruc] [nvarchar](50) NULL,
+CONSTRAINT [PK_Nhanvien] PRIMARY KEY CLUSTERED 
+(
+	[MaNV] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+--==TAO KHOA NGOAI Nhanvien_ChucVu==---
+ALTER TABLE [dbo].[Nhanvien]  WITH CHECK ADD  CONSTRAINT [FK_Nhanvien_ChucVu] FOREIGN KEY([MaCV])
+REFERENCES [dbo].[ChucVu] ([MaCV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[Nhanvien] CHECK CONSTRAINT [FK_Nhanvien_ChucVu]
+GO
+
+INSERT INTO Nhanvien([MaNV],[HoNV],[Ten],[MatKhau],[Diachi],[Dienthoai],[MaCV],[CaTruc])
+    VALUES ('NV01',N'Le',N'A',123,N'34 HCM',362479,'CV01',2)
+INSERT INTO Nhanvien([MaNV],[HoNV],[Ten],[MatKhau],[Diachi],[Dienthoai],[MaCV],[CaTruc])
+    VALUES ('NV02',N'Le',N'B',345,N'36 HCM',364579,'CV02',1)
+---------Create table Phieu Nhap ------
+
+
+CREATE TABLE [dbo].[PhieuNhap](
+	[MaPN] [nvarchar] (10) NOT NULL,
+	[NgayNhap] [datetime] NULL,
+	[MaNCC] [nvarchar](10) NULL,
+	--[TongGiaTri] [float] null,
+	[MaNV] [nvarchar](10) NOT NULL,
+ CONSTRAINT [PK_PhieuNhap] PRIMARY KEY CLUSTERED 
+(
+	[MaPN] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+--===Khoa ngoai (Phieu Nhap-NCC)==--
+ALTER TABLE [dbo].[PhieuNhap]  WITH CHECK ADD  CONSTRAINT [FK_PhieuNhap_NCC] FOREIGN KEY([MaNCC])
+REFERENCES [dbo].[NCC] ([MaNCC])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[PhieuNhap] CHECK CONSTRAINT [FK_PhieuNhap_NCC]
+GO
+--===Khoa ngoai (Phieu Nhap-NV)==--
+ALTER TABLE [dbo].[PhieuNhap]  WITH CHECK ADD  CONSTRAINT [FK_PhieuNhap_NV] FOREIGN KEY([MaNV])
+REFERENCES [dbo].[Nhanvien] ([MaNV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[PhieuNhap] CHECK CONSTRAINT [FK_PhieuNhap_NV]
+GO
+
+INSERT INTO PhieuNhap([MaPN],[NgayNhap],[MaNCC],[MaNV])
+    VALUES ('PN01',25/11/2016,N'NCC1','NV02')
+--=======CREATE TABLE PHIEU XUAT======--
+
+
+CREATE TABLE [dbo].[PhieuXuat](
+	[MaPX] [nvarchar] (10) NOT NULL,
+	[NgayXuat] [datetime] NULL,
+	--[TongGiaTri] [nvarchar](50) NULL,
+	[MaNV] [nvarchar](10) NOT NULL,
+ CONSTRAINT [PK_PhieuXuat] PRIMARY KEY CLUSTERED 
+(
+	[MaPX] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+--===Khoa ngoai (Phieu Xuat-NV)==--
+ALTER TABLE [dbo].[PhieuXuat]  WITH CHECK ADD  CONSTRAINT [FK_PhieuXuat_NV] FOREIGN KEY([MaNV])
+REFERENCES [dbo].[Nhanvien] ([MaNV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[PhieuXuat] CHECK CONSTRAINT [FK_PhieuXuat_NV]
+GO
+INSERT INTO PhieuXuat([MaPX],[NgayXuat],[MaNV])
+    VALUES ('PX01',30/11/2016,N'NV01')
+
+------------CREATE TABLE LoaiHH------------------
+
+
+CREATE TABLE [dbo].[LoaiHH](
+	[MaLoaiHH] [int] NOT NULL,
+	[TenLoaiHH] [nvarchar](255) NULL,
+ CONSTRAINT [PK_LoaiHH] PRIMARY KEY CLUSTERED 
+(
+	[MaLoaiHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+Go
+
+INSERT INTO LoaiHH([MaLoaiHH],[TenLoaiHH])
+    VALUES ('01','Thuc uong')
+
+-----------CREATE TABLE Hoa Don------------------
+
+
+CREATE TABLE [dbo].[HoaDon](
+	[MaHD] [nvarchar](10) NOT NULL,
+	[MaNV] [nvarchar] (10) NULL,
+	[NgayLapHD] [datetime] NOT NULL,
+ CONSTRAINT [PK_HoaDon] PRIMARY KEY CLUSTERED 
+(
+	[MaHD] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[HoaDon]  WITH CHECK ADD  CONSTRAINT [FK_HoaDon_Nhanvien] FOREIGN KEY([MaNV])
+REFERENCES [dbo].[Nhanvien] ([MaNV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[HoaDon] CHECK CONSTRAINT [FK_HoaDon_Nhanvien]
+GO
+
+INSERT INTO HoaDon([MaHD],[MaNV],[NgayLapHD])
+    VALUES ('HD01','NV01',30/11/2016)
+
+
+-----------CREATE TABLE Hang hoa------------
+
+
+CREATE TABLE [dbo].[HangHoa](
+	[MaHH] [nvarchar](10) NOT NULL,
+	[TenHH] [nvarchar](50) NULL,
+	[Donvitinh] [nvarchar](8) NULL,
+	[Dongia] [int] NULL,
+	[MaLoaiHH] [int] NOT NULL,
+	
+ CONSTRAINT [PK_HangHoa] PRIMARY KEY CLUSTERED 
+(--khoa chinh--
+	[MaHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+--=====tao khoa ngoai cho bang SanPhamBH : MaLoaiHH
+ALTER TABLE [dbo].[HangHoa]  WITH CHECK ADD  CONSTRAINT [FK_HangHoa_LoaiHH] FOREIGN KEY([MaLoaiHH])/*khoa ngoai*/
+REFERENCES [dbo].[LoaiHH] ([MaLoaiHH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[HangHoa] CHECK CONSTRAINT [FK_HangHoa_LoaiHH]
+GO 
+
+
+INSERT INTO HangHoa([MaHH],[TenHH],[Donvitinh],[Dongia],[MaLoaiHH])
+    VALUES ('Bb12',N'Bia Ben thành',N'Chai',10080,N'01')
+-----------CREATE TABLE CTHD--------------
+
+
+CREATE TABLE [dbo].[CTHD](
+	[MaHD] [nvarchar](10) NOT NULL,
+	[MaHH] [nvarchar](10) NOT NULL,
+	[Soluong] [smallint] NULL,
+	[Giamgia] [real] NULL,
+ CONSTRAINT [PK_CTHD] PRIMARY KEY CLUSTERED 
+(
+--2 khoa chinh MaDH,MaSP ;xep thu tu A-Z
+	[MaHD] ASC,
+	[MaHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+--==tao khoa ngoai cho bang CTHD : MaHD==--
+ALTER TABLE [dbo].[CTHD]  WITH CHECK ADD  CONSTRAINT [FK_CTHD_HoaDon] FOREIGN KEY([MaHD])
+REFERENCES [dbo].[HoaDon] ([MaHD])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTHD] CHECK CONSTRAINT [FK_CTHD_HoaDon]
+GO
+
+--==tao khoa ngoai cho bang CTHD : MaHH==--
+ALTER TABLE [dbo].[CTHD]  WITH CHECK ADD  CONSTRAINT [FK_CTHD_HangHoa] FOREIGN KEY([MaHH])
+REFERENCES [dbo].[HangHoa] ([MaHH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTHD] CHECK CONSTRAINT [FK_CTHD_HangHoa]
+GO
+
+INSERT INTO CTHD([MaHD],[MaHH],[Soluong],[Giamgia])
+    VALUES (N'HD01',N'Bb12','2','50%')
+
+------CREATE TABLE CTPN------
+
+
+CREATE TABLE [dbo].[CTPN](
+	[MaPN] [nvarchar] (10) NOT NULL,
+	[MaHH] [nvarchar](10) NOT NULL,
+	[SoLuongNhap] [nvarchar](50) NULL,
+	[DonGia] [int] NULL,
+	
+ CONSTRAINT [PK_CTPN] PRIMARY KEY CLUSTERED 
+(
+	[MaPN] ASC,
+	[MaHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[CTPN]  WITH CHECK ADD  CONSTRAINT [FK_CTPN_PhieuNhap] FOREIGN KEY([MaPN])
+REFERENCES [dbo].[PhieuNhap] ([MaPN])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPN] CHECK CONSTRAINT [FK_CTPN_PhieuNhap]
+GO
+
+ALTER TABLE [dbo].[CTPN]  WITH CHECK ADD  CONSTRAINT [FK_CTPN_HangHoa] FOREIGN KEY([MaHH])
+REFERENCES [dbo].[HangHoa] ([MaHH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPN] CHECK CONSTRAINT [FK_CTPN_HangHoa]
+GO
+
+INSERT INTO CTPN([MaPN],[MaHH],[SoLuongNhap],[DonGia])
+    VALUES ('PN01','Bb12','8',10080)
+
+----CREATE TABLE CTPX---
+
+
+CREATE TABLE [dbo].[CTPX](
+	[MaPX] [nvarchar] (10) NOT NULL,
+	[MaHH] [nvarchar](10) NOT NULL,
+	[SoLuongXuat] [nvarchar](50) NULL,
+	[DonGia] [int] NULL,
+	
+ CONSTRAINT [PK_CTPX] PRIMARY KEY CLUSTERED 
+(
+	[MaPX] ASC,
+	[MaHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[CTPX]  WITH CHECK ADD  CONSTRAINT [FK_CTPX_PhieuXuat] FOREIGN KEY([MaPX])
+REFERENCES [dbo].[PhieuXuat] ([MaPX])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPX] CHECK CONSTRAINT [FK_CTPX_PhieuXuat]
+GO
+
+ALTER TABLE [dbo].[CTPX]  WITH CHECK ADD  CONSTRAINT [FK_CTPX_HangHoa] FOREIGN KEY([MaHH])
+REFERENCES [dbo].[HangHoa] ([MaHH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPX] CHECK CONSTRAINT [FK_CTPX_HangHoa]
+GO
+
+
+INSERT INTO CTPX([MaPX],[MaHH],[SoLuongXuat],[DonGia])
+    VALUES ('PX01','Bb12','2',10080)
+
+------CREATE TABLE PHIEU KIEM KE
+CREATE TABLE [dbo].[PhieuKK](
+	[MaKK] [nvarchar] (10) NOT NULL,
+	[NgayKK] [datetime] NULL,
+	--[TongGiaTri] [nvarchar](50) NULL,
+	[MaNV] [nvarchar](10) NOT NULL,
+ CONSTRAINT [PK_PhieuKK] PRIMARY KEY CLUSTERED 
+(
+	[MaKK] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+--===Khoa ngoai (Phieu Xuat-NV)==--
+ALTER TABLE [dbo].[PhieuKK]  WITH CHECK ADD  CONSTRAINT [FK_PhieuKK_Nhanvien] FOREIGN KEY([MaNV])
+REFERENCES [dbo].[Nhanvien] ([MaNV])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+INSERT INTO PhieuKK([MaKK],[NgayKK],[MaNV])
+    VALUES ('KK01',01/12/2016,'NV01')
+
+----===CREATE TABLE CTPKK==----
+
+CREATE TABLE [dbo].[CTPKK](
+	[MaKK] [nvarchar](10) NOT NULL,
+	[MaHH] [nvarchar](10) NOT NULL,
+	[Soluong] [smallint] NULL,
+	[TinhTrang] [nvarchar](50) NULL,
+ CONSTRAINT [PK_CTPKK] PRIMARY KEY CLUSTERED 
+(
+	[MaKK] ASC,
+	[MaHH] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[CTPKK]  WITH CHECK ADD  CONSTRAINT [FK_CTPKK_PhieuKK] FOREIGN KEY([MaKK])
+REFERENCES [dbo].[PhieuKK] ([MaKK])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPKK] CHECK CONSTRAINT [FK_CTPKK_PhieuKK]
+GO
+
+ALTER TABLE [dbo].[CTPKK]  WITH CHECK ADD  CONSTRAINT [FK_CTPKK_HangHoa] FOREIGN KEY([MaHH])
+REFERENCES [dbo].[HangHoa] ([MaHH])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+
+ALTER TABLE [dbo].[CTPKK] CHECK CONSTRAINT [FK_CTPKK_HangHoa]
+GO
+
+INSERT INTO CTPKK([MaKK],[MaHH],[Soluong],[TinhTrang])
+    VALUES ('KK01','Bb12',2,'Da ban')
