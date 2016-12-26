@@ -1,0 +1,7 @@
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\bin\Debug\BaiNhom.exe
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\bin\Debug\BaiNhom.pdb
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.Form1.resources
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.Properties.Resources.resources
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.csproj.GenerateResource.Cache
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.exe
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.pdb
