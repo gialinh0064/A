@@ -7,3 +7,4 @@ C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.exe
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.pdb
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLCHTL.resources
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNCC.resources
+C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNV.resources

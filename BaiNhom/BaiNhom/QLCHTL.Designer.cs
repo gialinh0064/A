@@ -35,12 +35,12 @@
             this.button4 = new System.Windows.Forms.Button();
             this.btQL_HD = new System.Windows.Forms.Button();
             this.btQL_NV = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -126,16 +126,17 @@
             this.btQL_NV.TabIndex = 7;
             this.btQL_NV.Text = "Quản Lý Nhân Viên";
             this.btQL_NV.UseVisualStyleBackColor = false;
+            this.btQL_NV.Click += new System.EventHandler(this.btQL_NV_Click);
             // 
-            // pictureBox1
+            // pictureBox3
             // 
-            this.pictureBox1.Image = global::BaiNhom.Properties.Resources._4;
-            this.pictureBox1.Location = new System.Drawing.Point(409, 99);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox3.Image = global::BaiNhom.Properties.Resources._4;
+            this.pictureBox3.Location = new System.Drawing.Point(143, 99);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(99, 82);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -147,15 +148,15 @@
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.Image = global::BaiNhom.Properties.Resources._4;
-            this.pictureBox3.Location = new System.Drawing.Point(143, 99);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(99, 82);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox1.Image = global::BaiNhom.Properties.Resources._4;
+            this.pictureBox1.Location = new System.Drawing.Point(409, 99);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(99, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // QLCHTL
             // 
@@ -179,9 +180,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QLCHTL";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QLCHTL_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

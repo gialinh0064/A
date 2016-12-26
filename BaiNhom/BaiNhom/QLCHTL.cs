@@ -27,5 +27,13 @@ namespace BaiNhom
             if (MessageBox.Show("Bạn chắc chắn muốn thoát chương trình?", "Cảnh báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.No)
                 e.Cancel = true;
         }
+
+        private void btQL_NV_Click(object sender, EventArgs e)
+        {
+            QLNV f1 = new QLNV();
+            f1.ShowDialog();
+        }
+
+       
     }
 }

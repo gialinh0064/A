@@ -139,11 +139,6 @@ namespace BaiNhom
             return list;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void bttim_Click_1(object sender, EventArgs e)
         {
             string sql = "SELECT * FROM NCC WHERE ";

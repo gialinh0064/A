@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Employees.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +68,12 @@
     <Compile Include="QLCHTL.Designer.cs">
       <DependentUpon>QLCHTL.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNV.Designer.cs">
+      <DependentUpon>QLNV.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="QLCHTL.resx">
       <DependentUpon>QLCHTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNV.resx">
+      <DependentUpon>QLNV.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
