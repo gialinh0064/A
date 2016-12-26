@@ -306,7 +306,7 @@
             this.dgv_Nhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Nhanvien.Location = new System.Drawing.Point(12, 307);
             this.dgv_Nhanvien.Name = "dgv_Nhanvien";
-            this.dgv_Nhanvien.Size = new System.Drawing.Size(773, 218);
+            this.dgv_Nhanvien.Size = new System.Drawing.Size(775, 236);
             this.dgv_Nhanvien.TabIndex = 28;
             // 
             // QLNV
@@ -314,11 +314,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(802, 527);
+            this.ClientSize = new System.Drawing.Size(800, 527);
             this.Controls.Add(this.dgv_Nhanvien);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "QLNV";
             this.Text = "QLNV";
             this.Load += new System.EventHandler(this.QLNV_Load);

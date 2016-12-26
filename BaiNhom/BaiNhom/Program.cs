@@ -15,7 +15,7 @@ namespace BaiNhom
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QLCHTL());
+            Application.Run(new Form1());
         }
     }
 }
