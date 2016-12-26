@@ -62,6 +62,9 @@ namespace BaiNhom
                 if (x == 1)
                 {
                     MessageBox.Show("dang nhap thanh cong", "thong bao");
+                    QLCHTL frm = new QLCHTL();
+                    frm.Show();
+                    Hide();
                 }
                 else
                 {
