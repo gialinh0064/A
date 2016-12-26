@@ -61,14 +61,14 @@ namespace BaiNhom
                 //dung dang nhap
                 if (x == 1)
                 {
-                    MessageBox.Show("dang nhap thanh cong", "thong bao");
+                    MessageBox.Show("đăng nhập thành công", "Thông báo");
                     QLCHTL frm = new QLCHTL();
                     frm.Show();
                     Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Tai khoan hoac mat khau co van de", "thong bao");
+                    MessageBox.Show("Tài khoản hay mật khẩu có vấn đề", "Thông báo");
                 }
             }
             catch (SqlException ex)

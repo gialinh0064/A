@@ -1,0 +1,50 @@
+﻿USE A
+GO
+
+IF OBJECT_ID('USP_INS_NCC','P')IS NOT NULL
+	DROP PROC USP_INS_NCC
+GO
+
+
+CREATE PROC USP_INS_NCC
+@MANCC nvarchar (10),
+@TEN nvarchar (50),
+@DIACHI nvarchar(50),
+@sdt nvarchar(10),
+@fax nvarchar(50)
+AS
+	INSERT INTO NCC(MaNCC,TenNCC,DiaChi,SDT,Fax) 
+	VALUES (@MANCC,@TEN,@DIACHI,@sdt,@FAX)
+GO
+
+EXEC USP_INS_NCC N'NCC7',N'ARINOMOTO',N'126,HỐ NAI,ĐỒNG NAI',N'100086',N'43'
+GO
+
+--DROP PROC USP_INS_NCC
+--GO 
+
+--============== XÓA NCC===========--
+IF OBJECT_ID('USP_DEL_NCC','P')IS NOT NULL
+	DROP PROC USP_DEL_NCC
+GO
+
+CREATE PROC USP_DEL_NCC
+@MANCC nvarchar (10),
+@TEN nvarchar (50),
+@DIACHI nvarchar(50),
+@sdt nvarchar(10),
+@fax nvarchar(50)
+AS
+	DELETE NCC
+	WHERE MaNCC = @MANCC and TenNCC =@TEN and DiaChi =  @DIACHI and SDT = @sdt and Fax = @fax
+GO
+
+EXEC USP_DEL_NCC N'NCC7',N'ARINOMOTO',N'126,HỐ NAI,ĐỒNG NAI',N'100086',N'43'
+GO
+
+SELECT*
+FROM NCC
+GO
+
+--DROP PROC USP_INS_NCC
+--GO 

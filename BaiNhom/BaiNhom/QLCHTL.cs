@@ -18,8 +18,8 @@ namespace BaiNhom
 
         private void btNCC_Click(object sender, EventArgs e)
         {
-            NCC f = new NCC();
-            f.Show();
+            QLNCC f = new QLNCC();
+            f.ShowDialog();
         }
 
         private void QLCHTL_FormClosing(object sender, FormClosingEventArgs e)

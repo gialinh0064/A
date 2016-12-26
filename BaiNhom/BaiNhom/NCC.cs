@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
 
 namespace BaiNhom
 {
-    public partial class NCC : Form
+    public class NCC
     {
-        public NCC()
+        public string MaNCC { get; set; }
+        public string TenNCC { get; set; }
+        public string DiaChi { get; set; }
+        public string SDT { get; set; }
+        public string Fax { get; set; }
+
+        //
+        public NCC(string ma, string ten, string diachi, string sdt, string fax)
         {
-            InitializeComponent();
+            this.MaNCC = ma;
+            this.TenNCC = ten;
+            this.DiaChi = diachi;
+            this.SDT = sdt;
+            this.Fax = fax;
         }
     }
 }
