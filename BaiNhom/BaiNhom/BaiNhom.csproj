@@ -92,6 +92,12 @@
     <Compile Include="QLN_X_KK.Designer.cs">
       <DependentUpon>QLN_X_KK.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLPKK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLPKK.Designer.cs">
+      <DependentUpon>QLPKK.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLXH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QLN_X_KK.resx">
       <DependentUpon>QLN_X_KK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLPKK.resx">
+      <DependentUpon>QLPKK.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLXH.resx">
       <DependentUpon>QLXH.cs</DependentUpon>

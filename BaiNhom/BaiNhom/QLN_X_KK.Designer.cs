@@ -66,6 +66,7 @@
             this.btPKK.TabIndex = 0;
             this.btPKK.Text = "Quản lý Phiếu Kiểm Kê";
             this.btPKK.UseVisualStyleBackColor = true;
+            this.btPKK.Click += new System.EventHandler(this.btPKK_Click);
             // 
             // pictureBox1
             // 
