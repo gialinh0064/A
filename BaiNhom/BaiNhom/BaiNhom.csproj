@@ -92,6 +92,12 @@
     <Compile Include="QLN_X_KK.Designer.cs">
       <DependentUpon>QLN_X_KK.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLXH.Designer.cs">
+      <DependentUpon>QLXH.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QLN_X_KK.resx">
       <DependentUpon>QLN_X_KK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLXH.resx">
+      <DependentUpon>QLXH.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

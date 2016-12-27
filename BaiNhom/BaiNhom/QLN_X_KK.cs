@@ -27,5 +27,11 @@ namespace BaiNhom
             QLNH f = new QLNH();
             f.ShowDialog();
         }
+
+        private void btPX_Click(object sender, EventArgs e)
+        {
+            QLXH f1 = new QLXH();
+            f1.ShowDialog();
+        }
     }
 }

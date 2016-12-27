@@ -55,6 +55,7 @@
             this.btPX.TabIndex = 0;
             this.btPX.Text = "Quản lý Phiếu Xuất Hàng";
             this.btPX.UseVisualStyleBackColor = true;
+            this.btPX.Click += new System.EventHandler(this.btPX_Click);
             // 
             // btPKK
             // 
