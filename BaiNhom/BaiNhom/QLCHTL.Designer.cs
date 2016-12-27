@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btDT = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btQLHH = new System.Windows.Forms.Button();
             this.btNCC = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.btQL_HD = new System.Windows.Forms.Button();
@@ -66,17 +66,18 @@
             this.btDT.Text = "Doanh Thu";
             this.btDT.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btQLHH
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button3.Location = new System.Drawing.Point(40, 347);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(265, 74);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Quản Lý Hàng Hóa";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btQLHH.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btQLHH.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btQLHH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btQLHH.Location = new System.Drawing.Point(40, 347);
+            this.btQLHH.Name = "btQLHH";
+            this.btQLHH.Size = new System.Drawing.Size(265, 74);
+            this.btQLHH.TabIndex = 3;
+            this.btQLHH.Text = "Quản Lý Hàng Hóa";
+            this.btQLHH.UseVisualStyleBackColor = false;
+            this.btQLHH.Click += new System.EventHandler(this.button3_Click);
             // 
             // btNCC
             // 
@@ -169,7 +170,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btDT);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btQLHH);
             this.Controls.Add(this.btNCC);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btQL_HD);
@@ -191,7 +192,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btDT;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btQLHH;
         private System.Windows.Forms.Button btNCC;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btQL_HD;

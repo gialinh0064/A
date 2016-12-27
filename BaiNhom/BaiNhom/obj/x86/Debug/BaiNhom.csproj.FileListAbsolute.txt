@@ -9,3 +9,15 @@ C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLCHT
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNCC.resources
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNV.resources
 C:\Users\N.T.T Computer\Desktop\hp\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.csprojResolveAssemblyReference.cache
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.exe
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.pdb
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\bin\Debug\BaiNhom.exe
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\bin\Debug\BaiNhom.pdb
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.csprojResolveAssemblyReference.cache
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.Form1.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNCC.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.Properties.Resources.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLCHTL.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNV.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.csproj.GenerateResource.Cache
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLHH.resources
