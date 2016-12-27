@@ -116,6 +116,7 @@
             this.btQL_HD.TabIndex = 6;
             this.btQL_HD.Text = "Quản Lý Hóa Đơn";
             this.btQL_HD.UseVisualStyleBackColor = false;
+            this.btQL_HD.Click += new System.EventHandler(this.btQL_HD_Click);
             // 
             // btQL_NV
             // 

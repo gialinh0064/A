@@ -54,6 +54,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="NCC.cs" />
+    <Compile Include="QLHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLHD.Designer.cs">
+      <DependentUpon>QLHD.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLHH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLHD.resx">
+      <DependentUpon>QLHD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QLHH.resx">
       <DependentUpon>QLHH.cs</DependentUpon>

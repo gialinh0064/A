@@ -25,3 +25,4 @@ C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNH.resources
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLN_X_KK.resources
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLXH.resources
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLPKK.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLHD.resources

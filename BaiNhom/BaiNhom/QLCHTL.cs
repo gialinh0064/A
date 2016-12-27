@@ -45,5 +45,11 @@ namespace BaiNhom
             QLN_X_KK f3 = new QLN_X_KK();
             f3.ShowDialog();
         }
+
+        private void btQL_HD_Click(object sender, EventArgs e)
+        {
+            QLHD f4 = new QLHD();
+            f4.ShowDialog();
+        }
     }
 }
