@@ -13,8 +13,8 @@ namespace BaiNhom
     public partial class Form1 : Form
     {
 
-        string cnStr = "Data Source=PHUONG;Initial Catalog=Login;Integrated Security=True";
-        //string cnStr = @"Data Source=DESKTOP-PC9C563\SERVER1;Initial Catalog=Login;Integrated Security=True";
+        //string cnStr = "Data Source=PHUONG;Initial Catalog=Login;Integrated Security=True";
+        string cnStr = @"Data Source=DESKTOP-PC9C563\SERVER1;Initial Catalog=Login;Integrated Security=True";
         SqlConnection cn;
         SqlCommand cmd;
         public Form1()

@@ -74,11 +74,23 @@
     <Compile Include="QLCHTL.Designer.cs">
       <DependentUpon>QLCHTL.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNH.Designer.cs">
+      <DependentUpon>QLNH.cs</DependentUpon>
+    </Compile>
     <Compile Include="QLNV.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="QLNV.Designer.cs">
       <DependentUpon>QLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLN_X_KK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLN_X_KK.Designer.cs">
+      <DependentUpon>QLN_X_KK.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -102,8 +114,14 @@
     <EmbeddedResource Include="QLCHTL.resx">
       <DependentUpon>QLCHTL.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QLNH.resx">
+      <DependentUpon>QLNH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QLNV.resx">
       <DependentUpon>QLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLN_X_KK.resx">
+      <DependentUpon>QLN_X_KK.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

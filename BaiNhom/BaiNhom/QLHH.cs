@@ -22,7 +22,9 @@ namespace BaiNhom
 
         private void QLHH_Load(object sender, EventArgs e)
         {
-            cnStr = @"Data Source=DESKTOP-PC9C563\SERVER1;Initial Catalog=A;Integrated Security=True";
+
+            cnStr = "Data Source=PHUONG;Initial Catalog=A;Integrated Security=True";
+            //cnStr = @"Data Source=DESKTOP-PC9C563\SERVER1;Initial Catalog=A;Integrated Security=True";
             cn = new SqlConnection(cnStr);
 
             dgvHangHoa.DataSource = GetProductDatabase().Tables[0];

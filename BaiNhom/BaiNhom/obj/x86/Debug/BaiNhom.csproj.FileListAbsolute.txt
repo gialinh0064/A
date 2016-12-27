@@ -21,3 +21,5 @@ C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLCHTL.resources
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNV.resources
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.csproj.GenerateResource.Cache
 C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLHH.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLNH.resources
+C:\Users\Linh\Documents\A\BaiNhom\BaiNhom\obj\x86\Debug\BaiNhom.QLN_X_KK.resources

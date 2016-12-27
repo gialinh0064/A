@@ -32,7 +32,7 @@
             this.btDT = new System.Windows.Forms.Button();
             this.btQLHH = new System.Windows.Forms.Button();
             this.btNCC = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btNXKK = new System.Windows.Forms.Button();
             this.btQL_HD = new System.Windows.Forms.Button();
             this.btQL_NV = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -92,17 +92,18 @@
             this.btNCC.UseVisualStyleBackColor = false;
             this.btNCC.Click += new System.EventHandler(this.btNCC_Click);
             // 
-            // button4
+            // btNXKK
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button4.Location = new System.Drawing.Point(337, 193);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(265, 74);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Quản Lý Phiếu Nhập_Xuất Kiểm Kê";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btNXKK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btNXKK.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNXKK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btNXKK.Location = new System.Drawing.Point(337, 193);
+            this.btNXKK.Name = "btNXKK";
+            this.btNXKK.Size = new System.Drawing.Size(265, 74);
+            this.btNXKK.TabIndex = 5;
+            this.btNXKK.Text = "Quản Lý Phiếu Nhập_Xuất Kiểm Kê";
+            this.btNXKK.UseVisualStyleBackColor = false;
+            this.btNXKK.Click += new System.EventHandler(this.btNXKK_Click);
             // 
             // btQL_HD
             // 
@@ -164,7 +165,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(652, 459);
+            this.ClientSize = new System.Drawing.Size(634, 451);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -172,7 +173,7 @@
             this.Controls.Add(this.btDT);
             this.Controls.Add(this.btQLHH);
             this.Controls.Add(this.btNCC);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btNXKK);
             this.Controls.Add(this.btQL_HD);
             this.Controls.Add(this.btQL_NV);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -194,7 +195,7 @@
         private System.Windows.Forms.Button btDT;
         private System.Windows.Forms.Button btQLHH;
         private System.Windows.Forms.Button btNCC;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btNXKK;
         private System.Windows.Forms.Button btQL_HD;
         private System.Windows.Forms.Button btQL_NV;
         private System.Windows.Forms.PictureBox pictureBox1;

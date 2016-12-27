@@ -39,5 +39,11 @@ namespace BaiNhom
             QLHH f2 = new QLHH();
             f2.ShowDialog();
         }
+
+        private void btNXKK_Click(object sender, EventArgs e)
+        {
+            QLN_X_KK f3 = new QLN_X_KK();
+            f3.ShowDialog();
+        }
     }
 }
