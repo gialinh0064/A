@@ -1,0 +1,61 @@
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Form1.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Nhập_Xuất_Kiểm_Kê.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Properties.Resources.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Quan_Ly_Cua_Hang_Tien_Loi.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_nhân_viên.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Đăng_nhập.resources
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+E:\LT CSDL\Bai tap nhom\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csprojResolveAssemblyReference.cache
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Form1.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Nhập_Xuất_Kiểm_Kê.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Properties.Resources.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Quan_Ly_Cua_Hang_Tien_Loi.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_nhân_viên.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Đăng_nhập.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csproj.GenerateResource.Cache
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe.config
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_hàng_hóa.resources
+C:\Users\Linh\Downloads\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_Hóa_đơn.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe.config
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csprojResolveAssemblyReference.cache
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Form1.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Nhập_Xuất_Kiểm_Kê.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Properties.Resources.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Quan_Ly_Cua_Hang_Tien_Loi.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_hàng_hóa.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_Hóa_đơn.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_nhân_viên.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Đăng_nhập.resources
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csproj.GenerateResource.Cache
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\Linh\Desktop\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe.config
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\bin\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Form1.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Nhập_Xuất_Kiểm_Kê.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Properties.Resources.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Quan_Ly_Cua_Hang_Tien_Loi.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_hàng_hóa.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_Hóa_đơn.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Thông_tin_nhân_viên.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.Đăng_nhập.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csproj.GenerateResource.Cache
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.exe
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.pdb
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản Lý Cửa Hàng Tiện Lợi.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\Quản_Lý_Cửa_Hàng_Tiện_Lợi.frmInHoaDon.resources
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\RdlCompile.cache
+C:\Users\LENOVO\Desktop\Lin-master\Lin-master\Quản Lý Cửa Hàng Tiện Lợi\Quản Lý Cửa Hàng Tiện Lợi\obj\x86\Debug\RdlCompile.compiled
