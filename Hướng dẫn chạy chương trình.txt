@@ -1,0 +1,15 @@
+ Hu?ng d?n ch?y chuong trình
+B1:Chay sql CSDL g?c(da chinh 1)
+B2:Ch?y sql Login và SQL Login_DN
+B3:Ch?y sql Nhân viên,sql Add_Del_Search NCC
+B4:Form Ðang nh?p có ch? d? hi?n th? m?t kh?u 
+B5:Các Form còn l?i d?u có ch?c nang thêm, s?a,xóa,tìm ki?m 
+*Form Nhân viên,Nhà cung c?p
+Ví d?:Khi thêm nhân viên trên textbox và nh?n nút thêm s? hi?n th? trên datagridview nhân viên du?c them vào
+ Tuong t? nút s?a xóa
+*Form Còn l?i
+Ví d?:Khi thêm hàng hóa trên textbox và nh?n nút thêm s? hi?n th? dòng "Thêm thành công"
+Còn nút Xóa,S?a s? làm tr?c ti?p trên datagridview 
+
+---------Chúng em xin h?t-----
+---------C?m on th?y----------
